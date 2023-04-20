@@ -10,26 +10,47 @@ app.use(express.json());
 
 const data=[
   {
-    name: "Sóng Gió",
-    author: "Jack",
+    name: "Until I Found You",
+    author: "Stephen Sanchez",
+    link: "https://api-sp2t.onrender.com/public/Until_I_Found_You.mp3",
     id: 1,
-    link: "https://api-0vri.onrender.com/public/sóng gió.mp3"
   },
     {
-    name: "Trốn tìm",
-    author: "Đen Vâu",
+    name: "To The Mon",
+    author: "Hooligan",
+    link: "https://api-sp2t.onrender.com/public/To_The_Mon.mp3",
     id: 2,
-    link: "https://api-0vri.onrender.com/public/sóng gió.mp3"
   },
   {
-    name: "Đi về nhà",
-    author: "Đen Vâu",
+    name: "Perfect",
+    author: "Ed Sheeran",
+    link: "https://api-sp2t.onrender.com/public/Perfect.mp3",
     id: 3,
-    link: "https://api-0vri.onrender.com/public/sóng gió.mp3"
   },
-  
-  
-
+  {
+    name: "Comethru",
+    author: "Jeremy Zucker",
+    link: "https://api-sp2t.onrender.com/public/Comethru.mp3",
+    id: 4,
+  },
+  {
+    name: "Here With Me",
+    author: "d4vd",
+    link: "https://api-sp2t.onrender.com/public/Here_With_Me.mp3",
+    id: 5,
+  },
+  {
+    name: "Pano",
+    author: "Zack Tabudlo",
+    link: "https://api-sp2t.onrender.com/public/Pano.mp3",
+    id: 6,
+  },
+  {
+  name: "I_love_You_3000",
+    author: "Stephanie Poetri",
+    link: "https://api-sp2t.onrender.com/public/I_love_you_3000.mp3",
+    id: 7,
+  },
 ]
 
 app.get('/api/music',(req,res)=>{
