@@ -8,14 +8,14 @@ const port = process.env.PORT || 8080;
 app.use(cors());
 app.use(express.json());
 
-const data=[
+const data = [
   {
     name: "Until I Found You",
     author: "Stephen Sanchez",
     link: "https://api-sp2t.onrender.com/public/Until_I_Found_You.mp3",
     id: 1,
   },
-    {
+  {
     name: "To The Mon",
     author: "Hooligan",
     link: "https://api-sp2t.onrender.com/public/To_The_Mon.mp3",
@@ -46,14 +46,14 @@ const data=[
     id: 6,
   },
   {
-  name: "I_love_You_3000",
+    name: "I_love_You_3000",
     author: "Stephanie Poetri",
-    link: "https://api-sp2t.onrender.com/public/I_love_you_3000.mp3",
+    link: "https://api-sp2t.onrender.com/public/I_Love_You_3000.mp3",
     id: 7,
   },
 ]
 
-app.get('/api/music',(req,res)=>{
+app.get('/api/music', (req, res) => {
   res.json(data)
 })
 
