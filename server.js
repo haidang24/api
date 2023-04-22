@@ -17,7 +17,7 @@ const data=[
     id: 1,
   },
     {
-    name: "To The Mon",
+    name: "To The Moon",
     author: "Hooligan",
     link: "https://api-sp2t.onrender.com/public/To_The_Moon.mp3",
     img:"https://avatar-ex-swe.nixcdn.com/song/2020/07/02/5/d/c/9/1593664626011_640.jpg",
